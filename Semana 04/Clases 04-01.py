@@ -1,4 +1,4 @@
-usuario = "alvin"
+"""usuario = "alvin"
 monto_hope = 1236
 cantidad_alumnos = 79
 media_edad = 18.232456
@@ -16,4 +16,10 @@ print(f"el usuario es {usuario}")
 print (f"y con sus {cantidad_alumnos - 4} pajaritos ha recolectado ${monto_hope} para la funcion Hope")
 print(f"y la totalidad de gastos fue de ${abs(inversion_evento):,.2f}")
 print(f"la media de edad de los alumnos es de{media_edad: .2f} años")
-print(type(usuario))
+print(type(usuario))"""
+
+Nombre = "Jonathan"
+Apellido = "López"
+Nombre_completo = Nombre +" "+ Apellido
+print(Nombre_completo)
+
