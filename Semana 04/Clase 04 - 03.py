@@ -10,8 +10,8 @@ print(len(s2))
 print(len(s3))"""
 
 my_string = "ABCDEFGHCCCI"
-"""Letra = int(input("Indique el indice de la letra a mostrar(del 0 al 4): "))
-print(my_string[Letra])"""
+Letra = int(input("Indique el indice de la letra a mostrar(del 0 al 4): "))
+print(my_string[Letra])
 print(len(my_string))
 print(my_string[1:5:3])
 print("H" in my_string)
