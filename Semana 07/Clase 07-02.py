@@ -22,12 +22,22 @@ print(nombres)"""
 #segunda parte, es que ya se me hizo muy largo aca el archivo
 #aca vemos el if else
 
-numero = 6
+"""numero = 6
 captura = int(input("Adivina el numero: "))
 
 if captura == numero:
-    print("Lo lograsteeeee soltame gorda nooo como va a traer a la femigorda aaay dios mio clarence")
+    print("Lo grasteeeee soltame gorda nooo como va a traer a la femigorda aaay dios mio clarence")
 else:
-    print("Manco manco")
+    print("Manco manco")"""
+
+nota = float(input("Digite la nota: "))
+if nota > 8:
+    print("Excelente")
+elif nota > 6:
+    print("Muy bueno")
+
+
+
+
 
 

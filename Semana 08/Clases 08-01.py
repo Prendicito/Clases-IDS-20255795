@@ -15,9 +15,11 @@ for v in Valores:
 print(mayores)"""
 gasto = 0
 presupuesto = 1000
+
 while gasto <= presupuesto:
     compra = int(input("Monto a comprar: "))
     gasto += compra
+
 gasto -= compra
 print("Ha llegado al limite.")
 print(f"gasto {gasto}")
