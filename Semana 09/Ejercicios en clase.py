@@ -23,3 +23,4 @@ print("""
 7.	Mostrar categorías disponibles
 8.	Salir
 """)
+

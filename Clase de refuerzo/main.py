@@ -1,0 +1,30 @@
+#Este modulo sera el inicio de mi sistema
+
+#Importamos los modulos necesarios
+import modulo_funciones as mf
+
+
+while True:
+    print("""
+    Bienvenido a nuestro sistema.
+    -Elija una opcion 1-4:
+    1. Registrar estudiante
+    2. Inscribir en curso
+    3. Generar reportes
+    4. Salir""")
+    
+    opcion = input("Elija una opcion 1-4: ")
+    if opcion == "1":
+        print("Ha elegido la opcion 1.")
+        mf.registrar_estudiantes()
+    elif opcion == "2":
+        print("Ha elegido la opcion 2.")
+        mf.inscribir_en_curso()
+    elif opcion == "3":
+        print("Ha elegido la opcion 3.")
+        mf.generar_reporte()
+    elif opcion == "4":
+        print("Gracias por visitarnos.")
+        break
+    else:
+        print("La opcion elegida no es valida.")

@@ -11,7 +11,7 @@ abys_cat = {"personalidad": "simpatico",
 
 
 #Diccionarios 2 
-"""birthdays = {"Alice": "Apr1",
+birthdays = {"Alice": "Apr1",
              "Bob":"Dec 12",
              "Carol": "Mar4"}
 
@@ -19,9 +19,12 @@ birthdays["Carol"] = "Abr 21"
 birthdays["Fer"] = "May 3"
 del birthdays["Bob"]
 print(birthdays)
-"""
+
+
+
+
 #Diccionarios 3
-Semana = {}
+"""Semana = {}
 Semana["uno"] = "Lunes"
 Semana["dos"] = "Martes"
 Semana["tres"] = "Miercoles"
@@ -30,4 +33,4 @@ Semana["cinco"] = "Viernes"
 
 print(Semana.values())
 for v, k in Semana.items():
-    print(f"{v}: {k}")
+    print(f"{v}: {k}")"""

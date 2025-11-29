@@ -5,12 +5,6 @@ def describir_mascota(nombre_mascota: str,tipo_animal:str= "perro"):
 
 #describir_mascota("keitdapro", "siperodejaalniño")
 
-def saludar_usuarios(nombres):
-    """saludará usuarios"""
-    for nombre in nombres:
-        print(f"Hola, {nombre.capitalize()}")
-        
-usuarios = ["Ana","Luis","Fortnite"]
 #saludar_usuarios(usuarios)
 
 def ordenar_pizza(*ingrediente):
